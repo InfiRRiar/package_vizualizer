@@ -1,0 +1,39 @@
+// shows package structure
+digraph Diagram {
+	matplotlib
+	numpy
+	matplotlib -> numpy
+	cycler
+	matplotlib -> cycler
+	contourpy
+	matplotlib -> contourpy
+	kiwisolver
+	matplotlib -> kiwisolver
+	pyparsing
+	matplotlib -> pyparsing
+	setuptools_scm
+	matplotlib -> setuptools_scm
+	fonttools
+	matplotlib -> fonttools
+	pillow
+	matplotlib -> pillow
+	"importlib-resources"
+	matplotlib -> "importlib-resources"
+	"python-dateutil"
+	matplotlib -> "python-dateutil"
+	packaging
+	matplotlib -> packaging
+	six
+	"python-dateutil" -> six
+	zipp
+	"importlib-resources" -> zipp
+	tomli
+	setuptools_scm -> tomli
+	setuptools
+	setuptools_scm -> setuptools
+	"typing-extensions"
+	setuptools_scm -> "typing-extensions"
+	setuptools_scm -> packaging
+	kiwisolver -> "typing-extensions"
+	contourpy -> numpy
+}
